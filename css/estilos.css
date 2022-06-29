@@ -1,0 +1,192 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+}
+.inicio {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#menu {
+    list-style-type: none;
+    padding: 0 20px;
+    background: black;
+    width: 100%;
+    display: block;
+}
+#menu a:hover, #menu #activo:hover{
+    border-bottom: 3px solid white;
+}
+#menu #activo {
+    border-bottom: 2px solid white;
+}
+#menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display:block;
+    font-size: 18px;
+}
+#menu li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 80px;
+}
+#principal {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#principal h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 70px;
+    padding-top: 260px;
+    text-transform: uppercase;
+    padding-left: 860px;
+}
+#principal p {
+    color: white;
+    font-weight: 200;
+    font-weight: normal;
+    font-size: 40px;
+    padding-left: 865px;
+}
+#contenedor2 {
+    background-color: rgb(29, 27, 27);
+}
+#contenedor #lateralizq {
+    background-image: url(../img/Mesa\ de\ trabajo\ 2.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin: 30px;
+    margin-top: 70px;
+}
+#lateralder {
+    background-image: url(../img/Mesa\ de\ trabajo\ 1.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin: 30px;
+    vertical-align:top;
+    margin-top: 70px;
+}
+
+#contenido {
+    display: inline-block;
+    width: 49%;
+    padding: 25px;
+    vertical-align: top;
+    color: white;
+}
+#contenido h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+}
+#contenido p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#cuadro2  {
+    border: 1px black solid;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+#galeriatitulo h3 {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#galeria {
+    background-color: rgb(2, 0, 0);
+    padding: 5px 5px 0 5px;
+}
+#galeria .netflix {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#galeria .hbo {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 90px;
+}
+#galeria .prime {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+#cuadro1 {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+#trailer iframe {
+    height: 500px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+#caja {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
+#final {
+    background-color: black;
+}
+#logosena {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#footer {
+    display: inline-block;
+    color: white;   
+}
+#caja2 {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
+

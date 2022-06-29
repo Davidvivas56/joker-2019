@@ -1,0 +1,102 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+}
+.inicio {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#menu {
+    list-style-type: none;
+    padding: 0 20px;
+    background: black;
+    width: 100%;
+    display: block;
+}
+#menu a:hover, #menu #activo:hover{
+    border-bottom: 3px solid white;
+}
+#menu #activo {
+    border-bottom: 2px solid white;
+}
+#menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display:block;
+    font-size: 18px;
+}
+#menu li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 80px;
+}
+
+#contenido {
+    display: inline-block;
+    width: 100%;
+    padding: 25px;
+    vertical-align: top;
+    color: black;
+    background-image: url(../img/fondoanalisis.jpg);
+    background-size: cover;
+}
+.imagen2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.imagen {
+    float: left;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+#contenido p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#contenido h3 {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+#caja {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
+#final {
+    background-color: black;
+}
+#logosena {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#footer {
+    display: inline-block;
+    color: white;   
+}
+#caja2 {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
+

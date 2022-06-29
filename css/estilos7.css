@@ -1,0 +1,110 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenedor {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+.premios {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#menu {
+    list-style-type: none;
+    padding: 0 20px;
+    background: black;
+    width: 100%;
+    display: block;
+}
+#menu a:hover, #menu #activo:hover{
+    border-bottom: 3px solid white;
+}
+#menu #activo {
+    border-bottom: 2px solid white;
+}
+#menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display:block;
+    font-size: 18px;
+}
+#menu li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 80px;
+}
+#titulo {
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+#titulo1 {
+    font-size: 25px;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+.imgpelea, .imgjpg {
+    width: 100%;
+    height: 450px;
+    margin: 15px auto;
+}
+#titulo2, #titulo3 {
+    font-size: 25px;
+    font-family: monospace;
+    padding: 10px;
+    padding-left: 1%;
+}
+.parrafo1 {
+    padding: 5 20px;
+    line-height: 30px;
+}
+.parrafo2 {
+    padding: 5 0px;
+    line-height: 30px;
+}
+.parrafo3 {
+    padding: 5px 0px;
+    line-height: 30px;
+}
+#caja {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
+#final {
+    background-color: black;
+}
+#logosena {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#footer {
+    display: inline-block;
+    color: white;   
+}
+#caja2 {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 10px;
+    padding: 10px;
+}
